@@ -1,0 +1,146 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    width: 100%; /* Define a largura do container de imagem como 80% da página */
+    height: auto; /* Mantém a altura proporcional */
+    position: relative; /* Para controlar o posicionamento da imagem */
+    overflow: hidden; /* Para recortar a imagem se necessário */
+      
+}
+.content {
+    background-color: rgb(255, 255, 255);
+    min-height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.content04 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.content04 h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content4 {
+    background-color: rgb(255, 255, 255);
+    min-height: 300px;
+    padding: 20px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.footer {
+    background-color: rgb(213, 212, 218);
+    min-height: 150px;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    padding-left: 200px;
+}
+
+.img1 {
+    position: absolute; /* Posiciona a imagem dentro do container */
+    right: 0; /* Alinha a imagem à direita */
+    width: 100%; /* A imagem ocupa 100% da largura do container */
+    height:100%; /* A altura acompanha a largura, mantendo a proporção */
+    object-fit: cover; /* A imagem é dimensionada para preencher o container, podendo ser recortada */
+}
+
+.menu ul li a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(26, 164, 206); /* Mudar a cor de fundo ao passar o mouse */
+    padding: 5px 2px; /* Adicionar preenchimento para criar uma caixa */
+    border-radius: 5px; /* Adicionar cantos arredondados à caixa */
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+p {
+    max-width: 500px;
+}
+
+ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+table {
+    -webkit-box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.24); 
+    box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.24);
+    border: solid 1px gray;
+}
+
+.row {
+    margin: 5px;
+}
+
+label {
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+fieldset {
+    margin: 15px 0;
+    border-radius: 20px;
+}
+
+.brow {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+
+
+
